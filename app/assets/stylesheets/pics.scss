@@ -1,3 +1,39 @@
-// Place all the styles related to the pics controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	margin: 0px auto;
+	max-width: 800px;
+	background-color: #eeeeee;
+	color: #222222;
+	font-family: 'Segoe UI', Tahoma, sans-serif;
+	}
+
+span.logo{
+	font-size: 36px;
+	line-height: 60px;
+}
+
+span.login{
+	float: right;
+	font-variant: small-caps;
+	font-size: 20px;
+	line-height: 60px;
+	margin-top: 8px;
+}
+
+a{
+	color: #222222;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+p{
+	font: 20px Times, serif;
+	line-height: 1.5;
+}
+
+p#footer{
+	font: 14px 'Segoe UI', Tahoma, sans-serif;
+	padding: 10px 0px 0px 0px;
+	border-top: 1pt solid;
+}
