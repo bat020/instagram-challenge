@@ -8,7 +8,7 @@ feature 'users:' do
     fill_in('Email', with: 'marcel@art.com')
     fill_in('Password', with: 'rmutt')
     fill_in('Password confirmation', with: 'rmutt')
-    click_button('SIGN UP')
+    click_button('sign up')
   end
   scenario 'can log in' do
 
