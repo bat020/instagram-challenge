@@ -2,7 +2,11 @@
   %span.logo
     MoodyGram
   %span.login
-    = link_to "log in", new_user_session_path
-    •
-    = link_to "sign up", new_user_registration_path
+    -if user_signed_in?
+      %span= current_user.username + ':'
+      = link_to "log out",  destroy_user_session_path, method: :delete
+    -else
+      = link_to "log in", new_user_session_path
+      \/
+      = link_to "sign up", new_user_registration_path
 %hr
